@@ -1,0 +1,68 @@
+starter/ui/dashboard/LeftMenu.java
+ starter.ui.dashboard.LeftMenu
+starter/tasks/signup/DoSignUpStep1.java
+ starter.tasks.signup.DoSignUpStep1
+starter/stepdefinitions/LoginStepDefinitions.java
+ starter.stepdefinitions.LoginStepDefinitions
+starter/stepdefinitions/StepDefinitions2.java
+ starter.stepdefinitions.StepDefinitions2
+starter/ui/dashboard/CreditAvailable.java
+ starter.ui.dashboard.CreditAvailable
+starter/questions/signUp/SignUpOverviewData.java
+ starter.questions.signUp.SignUpOverviewData
+starter/ui/search/SearchFor.java
+ starter.ui.search.SearchFor
+starter/stepdefinitions/CommonStepDefinitions.java
+ starter.stepdefinitions.CommonStepDefinitions
+starter/ui/signup/SignUpStep1.java
+ starter.ui.signup.SignUpStep1
+starter/ui/search/SearchResult.java
+ starter.ui.search.SearchResult
+starter/ui/signup/SignUpStep4.java
+ starter.ui.signup.SignUpStep4
+starter/CucumberTestSuite.java
+ starter.CucumberTestSuite
+starter/tasks/signup/DoSignUpStep2.java
+ starter.tasks.signup.DoSignUpStep2
+starter/ui/search/SearchResultList.java
+ starter.ui.search.SearchResultList
+starter/tasks/login/DoLogin.java
+ starter.tasks.login.DoLogin
+starter/ui/WelcomePage.java
+ starter.ui.WelcomePage
+starter/ui/login/LoginForm.java
+ starter.ui.login.LoginForm
+starter/matchers/StringContainsIgnoringCase.java
+ starter.matchers.StringContainsIgnoringCase
+starter/navigation/NavigateTo.java
+ starter.navigation.NavigateTo
+starter/stepdefinitions/StepDefinitions1.java
+ starter.stepdefinitions.StepDefinitions1
+starter/conf/SetTheStage.java
+ starter.conf.SetTheStage
+starter/conf/SessionVariables.java
+ starter.conf.SessionVariables
+starter/ui/signup/SignUpStep3.java
+ starter.ui.signup.SignUpStep3
+starter/stepdefinitions/SignupStepDefinitions.java
+ starter.stepdefinitions.SignupStepDefinitions
+starter/stepdefinitions/SearchOnDuckDuckGoStepDefinitions.java
+ starter.stepdefinitions.SearchOnDuckDuckGoStepDefinitions
+starter/ui/dashboard/DashboardPage.java
+ starter.ui.dashboard.DashboardPage
+starter/tasks/signup/DoSignUpStep3.java
+ starter.tasks.signup.DoSignUpStep3
+starter/ui/search/SearchForm.java
+ starter.ui.search.SearchForm
+starter/questions/dashboard/OverviewData.java
+ starter.questions.dashboard.OverviewData
+starter/questions/WelcomePage.java
+ starter.questions.WelcomePage
+starter/ui/dashboard/FinancialOverview.java
+ starter.ui.dashboard.FinancialOverview
+starter/navigation/UTestHomePage.java
+ starter.navigation.UTestHomePage
+starter/ui/signup/SignUpStep2.java
+ starter.ui.signup.SignUpStep2
+starter/tasks/signup/DoSignUpStep4.java
+ starter.tasks.signup.DoSignUpStep4

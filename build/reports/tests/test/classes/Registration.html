@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Registration</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Registration</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Registration</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">51.838s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="Pepito can register successfully"></a>
+<h3 class="failures">Pepito can register successfully</h3>
+<span class="code">
+<pre>java.lang.AssertionError: 
+Expected: &quot;Welcome to the world's largest community of freelance software testers!&quot;
+     but: was &quot;\n          Step 4: \n          The last step\n        &quot;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at starter.stepdefinitions.SignupStepDefinitions.heSeesTheWelcomeMessagePage(SignupStepDefinitions.java:104)
+	at ✽.he sees the welcome message page(file:src/test/resources/features/signup/signup.feature:18)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">Pepito can register successfully</td>
+<td class="failures">51.838s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>@Test
+Feature: Registration
+  In order to use utest
+  As a user
+  I want to be able to register
+
+  @Test
+  Scenario: Pepito can register successfully ?[90m# src/test/resources/features/signup/signup.feature:7?[0m
+21:50:10.615 [Test worker] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ &lt; | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Pepito can register successfully(registration;pepito-can-register-successfully)
+-------------------------------------------------------------------
+21:50:11.786 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+21:50:11.787 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--test-ty..., goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --incognito, --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+    ?[32mGiven ?[0m?[32m?[0m?[32m?[1mPepito?[0m?[32m is in the home page?[0m         ?[90m# SignupStepDefinitions.isInTheHomePage(String)?[0m
+    ?[32mAnd ?[0m?[32mHe clicks the sign up button?[0m         ?[90m# SignupStepDefinitions.heClicksTheSignUpButton()?[0m
+    ?[32mAnd ?[0m?[32mHe sees the first registration step?[0m  ?[90m# SignupStepDefinitions.heSeesTheFirstRegistrationStep()?[0m
+    ?[32mAnd ?[0m?[32mHe fills the first form step?[0m         ?[90m# SignupStepDefinitions.heFillsTheFirstFormStep()?[0m
+    ?[32mAnd ?[0m?[32mHe sees the second registration step?[0m ?[90m# SignupStepDefinitions.heSeesTheSecondRegistrationStep()?[0m
+    ?[32mAnd ?[0m?[32mHe fills the second form step?[0m        ?[90m# SignupStepDefinitions.heFillsTheSecondFormStep()?[0m
+    ?[32mAnd ?[0m?[32mHe sees the third registration step?[0m  ?[90m# SignupStepDefinitions.heSeesTheThirdRegistrationStep()?[0m
+    ?[32mAnd ?[0m?[32mHe fills the third form step?[0m         ?[90m# SignupStepDefinitions.heFillsTheThirdFormStep()?[0m
+    ?[32mAnd ?[0m?[32mHe sees the fourth registration step?[0m ?[90m# SignupStepDefinitions.heSeesTheFourthRegistrationStep()?[0m
+    ?[32mWhen ?[0m?[32mHe fills the fourth form step?[0m       ?[90m# SignupStepDefinitions.heFillsTheFourthFormStep()?[0m
+    ?[31mThen ?[0m?[31mhe sees the welcome message page?[0m    ?[90m# SignupStepDefinitions.heSeesTheWelcomeMessagePage()?[0m
+      ?[31mjava.lang.AssertionError: 
+Expected: &quot;Welcome to the world's largest community of freelance software testers!&quot;
+     but: was &quot;\n          Step 4: \n          The last step\n        &quot;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at starter.stepdefinitions.SignupStepDefinitions.heSeesTheWelcomeMessagePage(SignupStepDefinitions.java:104)
+	at ?.he sees the welcome message page(file:src/test/resources/features/signup/signup.feature:18)
+?[0m
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Mar 14, 2021 9:50:11 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 9222
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 14, 2021 9:50:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.8.3</a> at Mar 14, 2021 9:51:09 PM</p>
+</div>
+</div>
+</body>
+</html>
